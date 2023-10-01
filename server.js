@@ -2,6 +2,7 @@ const express=require("express")
 const cors =require("cors")
 const mongoose = require('mongoose');
 const app=express()
+const Story=require("./model/stories")
 require("dotenv").config();
 
 const DB = process.env.DATABASE
