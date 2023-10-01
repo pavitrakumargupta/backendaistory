@@ -58,7 +58,7 @@ app.get("/api/getStories",async (req, res, next) => {
 
 
 app.get('/', function(req, res){
-    res.send('Running the On-Campus server app');
+    res.send('Running the Ai stories backend server app');
   });
 
 const server=app.listen(process.env.PORT ||5000,()=>{
